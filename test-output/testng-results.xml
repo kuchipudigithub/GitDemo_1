@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="124325" started-at="2020-01-27T00:49:54 AEDT" finished-at="2020-01-27T00:51:59 AEDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="124325" started-at="2020-01-27T00:49:54 AEDT" finished-at="2020-01-27T00:51:59 AEDT">
+      <class name="Course.irctcEmulator">
+        <test-method status="PASS" signature="irctcRegisteration()[pri:0, instance:Course.irctcEmulator@23faf8f2]" name="irctcRegisteration" duration-ms="124295" started-at="2020-01-27T00:49:54 AEDT" finished-at="2020-01-27T00:51:59 AEDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- irctcRegisteration -->
+      </class> <!-- Course.irctcEmulator -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
