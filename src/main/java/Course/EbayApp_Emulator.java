@@ -26,6 +26,8 @@ public class EbayApp_Emulator {
 			dc.setCapability(MobileCapabilityType.PLATFORM_VERSION, "10");
 			dc.setCapability(MobileCapabilityType.UDID, "emulator-5554");
 			
+	
+			
 			dc.setCapability("appPackage", "com.ebay.mobile");
 			dc.setCapability("appActivity", "com.ebay.mobile.activities.MainActivity");
 			
@@ -35,6 +37,9 @@ public class EbayApp_Emulator {
 	       
 	       driver.findElementById("com.ebay.mobile:id/button_register").click();
 	       
+	       driver.findElementById("com.ebay.mobile:id/button_register1").click();
+	       driver.findElementById("com.ebay.mobile:id/button_register2").click();
+	       driver.findElementById("com.ebay.mobile:id/button_register3").click();
 	       // create buss account
 	       
 	       driver.findElementById("com.ebay.mobile:id/button_business").click();
