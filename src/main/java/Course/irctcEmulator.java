@@ -56,6 +56,8 @@ public class irctcEmulator {
 		                
 		                //surendra
 		                driver.findElementByXPath("//*[text()='LOGIN1']").click();
+		                driver.findElementByXPath("//*[text()='LOGIN2']").click();
+		                driver.findElementByXPath("//*[text()='LOGIN3']").click();
 		                
 		                Thread.sleep(12000);
 		                //click on register
