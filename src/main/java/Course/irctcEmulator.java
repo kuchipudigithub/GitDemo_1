@@ -59,6 +59,9 @@ public class irctcEmulator {
 		                driver.findElementByXPath("//*[text()='LOGIN2']").click();
 		                driver.findElementByXPath("//*[text()='LOGIN3']").click();
 		                
+		                
+		                driver.findElementByXPath("//*[text()='LOGIN4']").click();
+		                driver.findElementByXPath("//*[text()='LOGIN5']").click();
 		                Thread.sleep(12000);
 		                //click on register
 		                driver.findElementByXPath("//*[text()='REGISTER']").click();
