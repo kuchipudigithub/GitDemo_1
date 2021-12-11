@@ -55,7 +55,7 @@ public class EbayApp_Emulator {
 	       //b2 by x user
 	       driver.findElementById("com.ebay.mobile:id/button_register11").click();
 	       //b2 by x user
-	       driver.findElementById("com.ebay.mobile:id/button_register122222").click();
+	       driver.findElementById("com.ebay.mobile:id/button_register124444").click();
 	       // create buss account
 	       
 	       driver.findElementById("com.ebay.mobile:id/button_business").click();
