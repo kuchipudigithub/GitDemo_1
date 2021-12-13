@@ -53,6 +53,9 @@ public class EbayApp_Emulator {
 	       driver.findElementById("com.ebay.mobile:id/button_register9").click();
 	       driver.findElementById("com.ebay.mobile:id/button_register10").click();
 	       driver.findElementById("com.ebay.mobile:id/button_register11").click();
+	       //branch 3 push--
+	       driver.findElementById("com.ebay.mobile:id/button_register12").click();
+	       
 	       // create buss account
 	       
 	       
