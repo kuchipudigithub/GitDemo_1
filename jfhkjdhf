@@ -1,0 +1,33 @@
+[1mdiff --git a/src/main/java/Course/EbayApp_Emulator.java b/src/main/java/Course/EbayApp_Emulator.java[m
+[1mindex 7c9bfde..5d81f43 100644[m
+[1m--- a/src/main/java/Course/EbayApp_Emulator.java[m
+[1m+++ b/src/main/java/Course/EbayApp_Emulator.java[m
+[36m@@ -52,8 +52,10 @@[m [mpublic class EbayApp_Emulator {[m
+ 	       driver.findElementById("com.ebay.mobile:id/button_register8").click();[m
+ 	       driver.findElementById("com.ebay.mobile:id/button_register9").click();[m
+ 	       driver.findElementById("com.ebay.mobile:id/button_register10").click();[m
+[32m+[m	[32m       driver.findElementById("com.ebay.mobile:id/button_register11").click();[m
+ 	       // create buss account[m
+ 	       [m
+[32m+[m[41m	       [m
+ 	       driver.findElementById("com.ebay.mobile:id/button_business").click();[m
+ 	       [m
+ 	     [m
+[1mdiff --git a/src/main/java/Course/irctcEmulator.java b/src/main/java/Course/irctcEmulator.java[m
+[1mindex cd3ce99..5b8e13e 100644[m
+[1m--- a/src/main/java/Course/irctcEmulator.java[m
+[1m+++ b/src/main/java/Course/irctcEmulator.java[m
+[36m@@ -62,6 +62,7 @@[m [mpublic class irctcEmulator {[m
+ 		                [m
+ 		                driver.findElementByXPath("//*[text()='LOGIN4']").click();[m
+ 		                driver.findElementByXPath("//*[text()='LOGIN5']").click();[m
+[32m+[m		[32m                driver.findElementByXPath("//*[text()='LOGIN6']").click();[m
+ 		                Thread.sleep(12000);[m
+ 		                //click on register[m
+ 		                driver.findElementByXPath("//*[text()='REGISTER']").click();[m
+[1mdiff --git a/target/classes/Course/EbayApp_Emulator.class b/target/classes/Course/EbayApp_Emulator.class[m
+[1mindex f149880..5c631d4 100644[m
+Binary files a/target/classes/Course/EbayApp_Emulator.class and b/target/classes/Course/EbayApp_Emulator.class differ
+[1mdiff --git a/target/classes/Course/irctcEmulator.class b/target/classes/Course/irctcEmulator.class[m
+[1mindex 8c9d61d..7c43b48 100644[m
+Binary files a/target/classes/Course/irctcEmulator.class and b/target/classes/Course/irctcEmulator.class differ
